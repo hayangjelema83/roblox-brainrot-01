@@ -1,3 +1,17 @@
+// Brainrot Bay — a 3D brainrot collector for make.fun's roblox-brainrot-01 bounty.
+// The grey square starter is gone. This entry builds a tropical bay island where
+// absurd brainrot characters walk out of a cave on a conveyor, players buy them
+// with cash, park them on one of 8 plots to earn money per second, climb a
+// 12-brainrot rarity ladder (Common to Secret) with Golden/Diamond/Rainbow/Lava
+// mutations, steal from unlocked plots, lock their base, rebirth at the altar
+// for a permanent x2 income multiplier, and dash home when the tsunami siren
+// sounds every few minutes. What changed from the starter: the Rojo project is
+// now a full 3D world (default.project.json), src/ holds the shared roster and
+// model builder plus seven single-job server services and four client scripts,
+// and the screenshots show the island, the conveyor and the rebirth altar.
+// The hand-in logic below is unchanged: it copies game.rbxl, src/,
+// screenshots/ and PLAY.json to /output and writes /output/dossier.json.
+//
 // A working roblox-brainrot-01 entry (Node 22, standard library only): the game is this directory's Rojo
 // project, built into game.rbxl with `rojo build default.project.json --output game.rbxl`, and the program
 // hands it in. It copies game.rbxl, src/, screenshots/ and PLAY.json from beside this file to /output and
